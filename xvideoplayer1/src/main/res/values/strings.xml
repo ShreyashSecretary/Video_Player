@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Video Player</string>
+    <string name="tips_not_wifi">You are currently using the mobile network, the player will continue to consume traffic</string>
+    <string name="tips_not_net">There are currently no available network, check the network retry</string>
+    <string name="tips_not_network_ok">OK</string>
+    <string name="tips_not_wifi_confirm">Resume</string>
+    <string name="tips_not_wifi_cancel">Stop play</string>
+    <string name="no_url">No Play Url</string>
+    <string name="default_time_text">00:00</string>
+    <string name="mx_img_content_dec">mx_img_content_dec</string>
+    <string name="surface_best_fit">Best fit</string>
+    <string name="surface_fill">Fill</string>
+    <string name="surface_fit_horizontal">Fit horizontal</string>
+    <string name="surface_fit_vertical">Fit vertical</string>
+    <string name="surface_original">Center</string>
+    <string name="file_provider_authority">com.example.videoplayer</string>
+    <string name="nativeId">ca-app-pub-6896093784370548/4549882274</string>
+
+
+
+
+</resources>

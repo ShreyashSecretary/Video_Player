@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/adCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground">
+
+    <com.google.android.gms.ads.formats.NativeAppInstallAdView
+        android:id="@+id/nativeAppInstallAdView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/appinstall_image"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:adjustViewBounds="true"
+                android:background="@color/colorPrimary"
+                android:scaleType="fitXY" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/appinstall_image"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/appinstall_app_icon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="16dp"
+                    android:adjustViewBounds="true" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_toLeftOf="@id/appinstall_call_to_action"
+                    android:layout_toRightOf="@id/appinstall_app_icon"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/appinstall_headline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        tools:text="Test" />
+
+                    <TextView
+                        android:id="@+id/appinstall_body"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:ellipsize="end"
+                        android:lineSpacingMultiplier="1.1"
+                        android:maxLines="1"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        tools:text="Test" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/appinstall_call_to_action"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="8dp"
+                    android:background="@color/colorTitleBlue"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"
+                    tools:text="Install" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </com.google.android.gms.ads.formats.NativeAppInstallAdView>
+</RelativeLayout>

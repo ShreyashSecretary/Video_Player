@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Video Player 1</string>
+
+    <string name="file_provider_authority">com.example.videoplayer1</string>
+</resources>

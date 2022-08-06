@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>ITimeInterval</key>
+        <value>0</value>
+    </entry>
+
+    <entry>
+        <key>showplatform</key>
+        <value>""</value>
+    </entry>
+
+    <entry>
+        <key>Appnext</key>
+        <value>""</value>
+    </entry>
+
+    <entry>
+        <key>Admob</key>
+        <value>""</value>
+    </entry>
+
+    <entry>
+        <key>Facebook</key>
+        <value>""</value>
+    </entry>
+
+</defaultsMap>

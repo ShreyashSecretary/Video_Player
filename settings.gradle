@@ -1,0 +1,5 @@
+rootProject.name = "Video Player 1"
+include ':app'
+include ':ijkplayer-java'
+include ':xvideoplayer1'
+include ':medialoader'
